@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1120" viewBox="0 0 900 1120">
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1120" fill="#0f0f13"/>
+
+  <!-- Left accent bar -->
+  <rect x="48" y="72" width="2" height="980" fill="#6e40c9" rx="1"/>
+
+  <!-- Top badges -->
+  <rect x="596" y="28" width="90" height="22" rx="11" fill="#1a1025" stroke="#6e40c9" stroke-width="1"/>
+  <text x="641" y="43" fill="#a78bfa" font-size="11" text-anchor="middle">13 Skills</text>
+
+  <rect x="698" y="28" width="148" height="22" rx="11" fill="#1a1025" stroke="#6e40c9" stroke-width="1"/>
+  <text x="772" y="43" fill="#a78bfa" font-size="11" text-anchor="middle">Claude Code Native</text>
+
+  <!-- Title -->
+  <circle cx="52" cy="52" r="5" fill="#6e40c9"/>
+  <text x="68" y="57" fill="#ffffff" font-size="18" font-weight="700" letter-spacing="0.5">MAHIP PM-OS</text>
+  <text x="230" y="57" fill="#6b7280" font-size="12" font-style="italic">Personal Operating System for AI PMs</text>
+
+  <!-- Divider under title -->
+  <line x1="48" y1="70" x2="852" y2="70" stroke="#2d2d3a" stroke-width="1"/>
+
+  <!-- ── ROOT FILES ── -->
+
+  <!-- CLAUDE.md -->
+  <line x1="50" y1="100" x2="68" y2="100" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="91" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <line x1="72" y1="94" x2="82" y2="94" stroke="#a78bfa" stroke-width="0.8"/>
+  <line x1="72" y1="97" x2="80" y2="97" stroke="#a78bfa" stroke-width="0.8"/>
+  <text x="90" y="102" fill="#c4b5fd" font-size="13" font-weight="400">CLAUDE.md</text>
+  <text x="210" y="102" fill="#4b5563" font-size="12" font-style="italic">loads every session, your operating manual</text>
+
+  <!-- GOALS.md -->
+  <line x1="50" y1="128" x2="68" y2="128" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="119" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <line x1="72" y1="122" x2="82" y2="122" stroke="#a78bfa" stroke-width="0.8"/>
+  <line x1="72" y1="125" x2="80" y2="125" stroke="#a78bfa" stroke-width="0.8"/>
+  <text x="90" y="130" fill="#c4b5fd" font-size="13">GOALS.md</text>
+  <text x="185" y="130" fill="#4b5563" font-size="12" font-style="italic">identity, OKRs, stakeholder map</text>
+
+  <!-- connections.md -->
+  <line x1="50" y1="156" x2="68" y2="156" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="147" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <line x1="72" y1="150" x2="82" y2="150" stroke="#a78bfa" stroke-width="0.8"/>
+  <line x1="72" y1="153" x2="80" y2="153" stroke="#a78bfa" stroke-width="0.8"/>
+  <text x="90" y="158" fill="#c4b5fd" font-size="13">connections.md</text>
+  <text x="235" y="158" fill="#4b5563" font-size="12" font-style="italic">tool registry with status + freshness</text>
+
+  <!-- decisions/log.md -->
+  <line x1="50" y1="184" x2="68" y2="184" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="175" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <line x1="72" y1="178" x2="82" y2="178" stroke="#a78bfa" stroke-width="0.8"/>
+  <line x1="72" y1="181" x2="80" y2="181" stroke="#a78bfa" stroke-width="0.8"/>
+  <text x="90" y="186" fill="#c4b5fd" font-size="13">decisions/log.md</text>
+  <text x="250" y="186" fill="#4b5563" font-size="12" font-style="italic">append-only decision log</text>
+
+  <!-- references/voice.md -->
+  <line x1="50" y1="212" x2="68" y2="212" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="203" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <line x1="72" y1="206" x2="82" y2="206" stroke="#a78bfa" stroke-width="0.8"/>
+  <line x1="72" y1="209" x2="80" y2="209" stroke="#a78bfa" stroke-width="0.8"/>
+  <text x="90" y="214" fill="#c4b5fd" font-size="13">references/voice.md</text>
+  <text x="272" y="214" fill="#4b5563" font-size="12" font-style="italic">writing samples for voice matching</text>
+
+  <!-- ── FOLDER: Tasks/ ── -->
+  <line x1="50" y1="248" x2="68" y2="248" stroke="#2d2d3a" stroke-width="1"/>
+  <!-- folder icon -->
+  <rect x="72" y="240" width="14" height="11" rx="2" fill="#6e40c9" opacity="0.25"/>
+  <rect x="72" y="237" width="7" height="4" rx="1.5" fill="#6e40c9" opacity="0.4"/>
+  <text x="92" y="250" fill="#ffffff" font-size="14" font-weight="500">Tasks/</text>
+
+  <line x1="74" y1="248" x2="74" y2="298" stroke="#2d2d3a" stroke-width="1"/>
+  <line x1="74" y1="270" x2="90" y2="270" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="262" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="110" y="273" fill="#c4b5fd" font-size="13">active.md</text>
+  <text x="205" y="273" fill="#4b5563" font-size="12" font-style="italic">what you're working on now</text>
+
+  <line x1="74" y1="298" x2="90" y2="298" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="290" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="110" y="301" fill="#c4b5fd" font-size="13">backlog.md</text>
+  <text x="212" y="301" fill="#4b5563" font-size="12" font-style="italic">prioritized upcoming work</text>
+
+  <!-- ── FOLDER: Projects/ ── -->
+  <line x1="50" y1="332" x2="68" y2="332" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="324" width="14" height="11" rx="2" fill="#6e40c9" opacity="0.25"/>
+  <rect x="72" y="321" width="7" height="4" rx="1.5" fill="#6e40c9" opacity="0.4"/>
+  <text x="92" y="334" fill="#ffffff" font-size="14" font-weight="500">Projects/</text>
+
+  <line x1="74" y1="332" x2="74" y2="408" stroke="#2d2d3a" stroke-width="1"/>
+  <line x1="74" y1="354" x2="90" y2="354" stroke="#2d2d3a" stroke-width="1"/>
+  <!-- _template sub-folder -->
+  <rect x="94" y="346" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.2"/>
+  <rect x="94" y="343" width="6" height="3" rx="1" fill="#6e40c9" opacity="0.3"/>
+  <text x="112" y="357" fill="#e2d9f3" font-size="13" font-weight="400">_template/</text>
+  <text x="228" y="357" fill="#4b5563" font-size="12" font-style="italic">copy for each initiative</text>
+
+  <line x1="96" y1="354" x2="96" y2="408" stroke="#2d2d3a" stroke-width="1"/>
+  <line x1="96" y1="378" x2="112" y2="378" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="116" y="370" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="132" y="381" fill="#c4b5fd" font-size="13">brief.md</text>
+
+  <line x1="96" y1="392" x2="112" y2="392" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="116" y="384" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="132" y="395" fill="#c4b5fd" font-size="13">requirements.md</text>
+
+  <line x1="96" y1="408" x2="112" y2="408" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="116" y="400" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="132" y="411" fill="#c4b5fd" font-size="13">decisions.md</text>
+
+  <!-- ── FOLDER: Workflows/ ── -->
+  <line x1="50" y1="442" x2="68" y2="442" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="434" width="14" height="11" rx="2" fill="#6e40c9" opacity="0.25"/>
+  <rect x="72" y="431" width="7" height="4" rx="1.5" fill="#6e40c9" opacity="0.4"/>
+  <text x="92" y="444" fill="#ffffff" font-size="14" font-weight="500">Workflows/</text>
+
+  <line x1="74" y1="442" x2="74" y2="492" stroke="#2d2d3a" stroke-width="1"/>
+  <line x1="74" y1="464" x2="90" y2="464" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="456" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="110" y="467" fill="#c4b5fd" font-size="13">weekly-review.md</text>
+  <text x="272" y="467" fill="#4b5563" font-size="12" font-style="italic">Friday ritual</text>
+
+  <line x1="74" y1="492" x2="90" y2="492" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="484" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="110" y="495" fill="#c4b5fd" font-size="13">launch-prep.md</text>
+  <text x="262" y="495" fill="#4b5563" font-size="12" font-style="italic">pre/post launch playbook</text>
+
+  <!-- ── FOLDER: Knowledge/ ── -->
+  <line x1="50" y1="526" x2="68" y2="526" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="518" width="14" height="11" rx="2" fill="#6e40c9" opacity="0.25"/>
+  <rect x="72" y="515" width="7" height="4" rx="1.5" fill="#6e40c9" opacity="0.4"/>
+  <text x="92" y="528" fill="#ffffff" font-size="14" font-weight="500">Knowledge/</text>
+
+  <line x1="74" y1="526" x2="74" y2="604" stroke="#2d2d3a" stroke-width="1"/>
+
+  <line x1="74" y1="548" x2="90" y2="548" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="540" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.2"/>
+  <rect x="94" y="537" width="6" height="3" rx="1" fill="#6e40c9" opacity="0.3"/>
+  <text x="112" y="551" fill="#e2d9f3" font-size="13">competitors/</text>
+  <text x="210" y="551" fill="#4b5563" font-size="12" font-style="italic">intel across all projects</text>
+
+  <line x1="74" y1="576" x2="90" y2="576" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="568" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.2"/>
+  <rect x="94" y="565" width="6" height="3" rx="1" fill="#6e40c9" opacity="0.3"/>
+  <text x="112" y="579" fill="#e2d9f3" font-size="13">users/</text>
+  <text x="175" y="579" fill="#4b5563" font-size="12" font-style="italic">research insights</text>
+
+  <line x1="74" y1="604" x2="90" y2="604" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="596" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.2"/>
+  <rect x="94" y="593" width="6" height="3" rx="1" fill="#6e40c9" opacity="0.3"/>
+  <text x="112" y="607" fill="#e2d9f3" font-size="13">ai-context/</text>
+  <text x="210" y="607" fill="#4b5563" font-size="12" font-style="italic">AI/ML reference for AI PMs</text>
+
+  <!-- ── FOLDER: Templates/ ── -->
+  <line x1="50" y1="638" x2="68" y2="638" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="630" width="14" height="11" rx="2" fill="#6e40c9" opacity="0.25"/>
+  <rect x="72" y="627" width="7" height="4" rx="1.5" fill="#6e40c9" opacity="0.4"/>
+  <text x="92" y="640" fill="#ffffff" font-size="14" font-weight="500">Templates/</text>
+
+  <line x1="74" y1="638" x2="74" y2="716" stroke="#2d2d3a" stroke-width="1"/>
+  <line x1="74" y1="660" x2="90" y2="660" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="652" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="110" y="663" fill="#c4b5fd" font-size="13">prd-template.md</text>
+
+  <line x1="74" y1="688" x2="90" y2="688" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="680" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="110" y="691" fill="#c4b5fd" font-size="13">okr-template.md</text>
+
+  <line x1="74" y1="716" x2="90" y2="716" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="708" width="10" height="12" rx="1" fill="none" stroke="#a78bfa" stroke-width="1.2"/>
+  <text x="110" y="719" fill="#c4b5fd" font-size="13">+ 3 more templates</text>
+
+  <!-- ── Skills divider ── -->
+  <line x1="48" y1="750" x2="852" y2="750" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="390" y="743" width="120" height="16" rx="8" fill="#0f0f13"/>
+  <text x="450" y="754" fill="#6e40c9" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="2">SKILLS</text>
+
+  <!-- ── FOLDER: .claude/skills/ ── -->
+  <line x1="50" y1="788" x2="68" y2="788" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="72" y="778" width="14" height="11" rx="2" fill="#6e40c9" opacity="0.5"/>
+  <rect x="72" y="775" width="7" height="4" rx="1.5" fill="#6e40c9" opacity="0.7"/>
+  <text x="92" y="790" fill="#ffffff" font-size="14" font-weight="600">.claude/skills/</text>
+  <text x="240" y="790" fill="#4b5563" font-size="12" font-style="italic">all 13 skills live here</text>
+
+  <line x1="74" y1="788" x2="74" y2="1024" stroke="#2d2d3a" stroke-width="1"/>
+
+  <!-- Meta skills with highlight -->
+  <rect x="86" y="800" width="460" height="78" rx="6" fill="#1a1025" stroke="#6e40c9" stroke-width="0.8" opacity="0.6"/>
+  <text x="558" y="812" fill="#6e40c9" font-size="10" font-style="italic">meta skills</text>
+
+  <line x1="74" y1="816" x2="90" y2="816" stroke="#6e40c9" stroke-width="1"/>
+  <rect x="94" y="808" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.4"/>
+  <rect x="94" y="805" width="6" height="3" rx="1" fill="#6e40c9" opacity="0.6"/>
+  <text x="112" y="819" fill="#a78bfa" font-size="13" font-weight="500">onboard/</text>
+  <text x="200" y="819" fill="#4b5563" font-size="12" font-style="italic">Day 1 setup wizard — 9-question interview</text>
+
+  <line x1="74" y1="844" x2="90" y2="844" stroke="#6e40c9" stroke-width="1"/>
+  <rect x="94" y="836" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.4"/>
+  <rect x="94" y="833" width="6" height="3" rx="1" fill="#6e40c9" opacity="0.6"/>
+  <text x="112" y="847" fill="#a78bfa" font-size="13" font-weight="500">health-audit/</text>
+  <text x="222" y="847" fill="#4b5563" font-size="12" font-style="italic">monthly scoring, 0-100, Four Cs</text>
+
+  <line x1="74" y1="872" x2="90" y2="872" stroke="#6e40c9" stroke-width="1"/>
+  <rect x="94" y="864" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.4"/>
+  <rect x="94" y="861" width="6" height="3" rx="1" fill="#6e40c9" opacity="0.6"/>
+  <text x="112" y="875" fill="#a78bfa" font-size="13" font-weight="500">level-up/</text>
+  <text x="198" y="875" fill="#4b5563" font-size="12" font-style="italic">weekly automation ritual</text>
+
+  <!-- PM skills -->
+  <line x1="74" y1="908" x2="90" y2="908" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="900" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.2"/>
+  <text x="112" y="911" fill="#e2d9f3" font-size="13">prd-writer/</text>
+  <text x="74" y="936" x1="74" />
+
+  <!-- Two-column PM skills layout -->
+  <line x1="74" y1="936" x2="90" y2="936" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="928" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.2"/>
+  <text x="112" y="939" fill="#e2d9f3" font-size="13">metrics-definer/</text>
+
+  <line x1="74" y1="964" x2="90" y2="964" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="956" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.2"/>
+  <text x="112" y="967" fill="#e2d9f3" font-size="13">sprint-planner/</text>
+
+  <line x1="74" y1="992" x2="90" y2="992" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="984" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.2"/>
+  <text x="112" y="995" fill="#e2d9f3" font-size="13">competitive-analysis/</text>
+
+  <line x1="74" y1="1020" x2="90" y2="1020" stroke="#2d2d3a" stroke-width="1"/>
+  <rect x="94" y="1012" width="12" height="9" rx="1.5" fill="#6e40c9" opacity="0.2"/>
+  <text x="112" y="1023" fill="#e2d9f3" font-size="13">+ 6 more PM skills</text>
+  <text x="270" y="1023" fill="#4b5563" font-size="12" font-style="italic">roadmap, experiments, launch, research, stakeholder, AI scoper</text>
+
+  <!-- Footer bar -->
+  <rect x="0" y="1084" width="900" height="36" fill="#1a1a2e"/>
+  <text x="450" y="1107" fill="#6e40c9" font-size="12" text-anchor="middle" letter-spacing="0.5">github.com/mahip-kakan/Mahip-PM-OS</text>
+
+</svg>

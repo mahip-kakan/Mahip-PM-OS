@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4c1d95"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="720" fill="#0f0f13"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="360" x2="1200" y2="360" stroke="#1a1a2e" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="720" stroke="#1a1a2e" stroke-width="1"/>
+
+  <!-- Title block -->
+  <text x="600" y="52" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="0.3">How Mahip PM-OS Works</text>
+  <text x="600" y="75" fill="#6b7280" font-size="14" text-anchor="middle">A personal AI operating system for Product Managers — setup once, compounds every session</text>
+
+  <!-- Horizontal connector line (behind cards) -->
+  <line x1="230" y1="330" x2="970" y2="330" stroke="#2d1b69" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrowhead)"/>
+
+  <!-- ═══════════════════════════════ PHASE 1 — Day 1 ═══════════════════════════════ -->
+  <rect x="60" y="110" width="170" height="310" rx="12" fill="#1a1025" stroke="#6e40c9" stroke-width="1.5"/>
+
+  <!-- Phase label -->
+  <rect x="60" y="110" width="170" height="36" rx="12" fill="#2d1b69"/>
+  <rect x="60" y="130" width="170" height="16" fill="#2d1b69"/>
+  <text x="145" y="133" fill="#a78bfa" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="2">DAY 1</text>
+
+  <text x="145" y="178" fill="#ffffff" font-size="19" font-weight="700" text-anchor="middle">onboard</text>
+  <line x1="80" y1="190" x2="210" y2="190" stroke="#2d2d3a" stroke-width="1"/>
+
+  <circle cx="84" cy="213" r="2.5" fill="#6e40c9"/>
+  <text x="93" y="217" fill="#c4b5fd" font-size="12">9-question interview</text>
+  <circle cx="84" cy="237" r="2.5" fill="#6e40c9"/>
+  <text x="93" y="241" fill="#c4b5fd" font-size="12">Fills CLAUDE.md</text>
+  <circle cx="84" cy="261" r="2.5" fill="#6e40c9"/>
+  <text x="93" y="265" fill="#c4b5fd" font-size="12">Fills GOALS.md</text>
+  <circle cx="84" cy="285" r="2.5" fill="#6e40c9"/>
+  <text x="93" y="289" fill="#c4b5fd" font-size="12">Fills voice.md</text>
+  <circle cx="84" cy="309" r="2.5" fill="#6e40c9"/>
+  <text x="93" y="313" fill="#c4b5fd" font-size="12">Fills connections.md</text>
+
+  <!-- Time pill -->
+  <rect x="94" y="384" width="102" height="22" rx="11" fill="#2d1b69"/>
+  <text x="145" y="399" fill="#a78bfa" font-size="11" text-anchor="middle">~ 10 minutes</text>
+
+  <!-- Arrow label -->
+  <text x="270" y="305" fill="#6b7280" font-size="11" font-style="italic" text-anchor="middle">1 week later</text>
+
+  <!-- ═══════════════════════════════ PHASE 2 — Day 7 ═══════════════════════════════ -->
+  <rect x="320" y="110" width="170" height="310" rx="12" fill="#1a1025" stroke="#7c3aed" stroke-width="1.5"/>
+
+  <rect x="320" y="110" width="170" height="36" rx="12" fill="#3b1f6e"/>
+  <rect x="320" y="130" width="170" height="16" fill="#3b1f6e"/>
+  <text x="405" y="133" fill="#a78bfa" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="2">DAY 7</text>
+
+  <text x="405" y="178" fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle">health-audit</text>
+  <line x1="340" y1="190" x2="470" y2="190" stroke="#2d2d3a" stroke-width="1"/>
+
+  <circle cx="344" cy="213" r="2.5" fill="#7c3aed"/>
+  <text x="353" y="217" fill="#c4b5fd" font-size="12">Scores setup 0-100</text>
+  <circle cx="344" cy="237" r="2.5" fill="#7c3aed"/>
+  <text x="353" y="241" fill="#c4b5fd" font-size="12">Four Cs framework</text>
+  <circle cx="344" cy="261" r="2.5" fill="#7c3aed"/>
+  <text x="353" y="265" fill="#c4b5fd" font-size="12">Top 3 gaps by leverage</text>
+  <circle cx="344" cy="285" r="2.5" fill="#7c3aed"/>
+  <text x="353" y="289" fill="#c4b5fd" font-size="12">Concrete next steps</text>
+  <circle cx="344" cy="309" r="2.5" fill="#7c3aed"/>
+  <text x="353" y="313" fill="#c4b5fd" font-size="12">Saves dated report</text>
+
+  <rect x="354" y="384" width="102" height="22" rx="11" fill="#3b1f6e"/>
+  <text x="405" y="399" fill="#a78bfa" font-size="11" text-anchor="middle">~ 5 minutes</text>
+
+  <text x="530" y="305" fill="#6b7280" font-size="11" font-style="italic" text-anchor="middle">recurring</text>
+
+  <!-- ═══════════════════════════════ PHASE 3 — Weekly ═══════════════════════════════ -->
+  <rect x="580" y="110" width="170" height="310" rx="12" fill="#1a1025" stroke="#8b5cf6" stroke-width="1.5"/>
+
+  <rect x="580" y="110" width="170" height="36" rx="12" fill="#4c1d95"/>
+  <rect x="580" y="130" width="170" height="16" fill="#4c1d95"/>
+  <text x="665" y="133" fill="#c4b5fd" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="2">EVERY FRIDAY</text>
+
+  <text x="665" y="178" fill="#ffffff" font-size="19" font-weight="700" text-anchor="middle">level-up</text>
+  <line x1="600" y1="190" x2="730" y2="190" stroke="#2d2d3a" stroke-width="1"/>
+
+  <circle cx="604" cy="213" r="2.5" fill="#8b5cf6"/>
+  <text x="613" y="217" fill="#c4b5fd" font-size="12">Find: 5 interview Qs</text>
+  <circle cx="604" cy="237" r="2.5" fill="#8b5cf6"/>
+  <text x="613" y="241" fill="#c4b5fd" font-size="12">Scope: OKR + map</text>
+  <circle cx="604" cy="261" r="2.5" fill="#8b5cf6"/>
+  <text x="613" y="265" fill="#c4b5fd" font-size="12">Ship: 1 new artifact</text>
+  <circle cx="604" cy="285" r="2.5" fill="#8b5cf6"/>
+  <text x="613" y="289" fill="#c4b5fd" font-size="12">Logs to decisions/</text>
+  <circle cx="604" cy="309" r="2.5" fill="#8b5cf6"/>
+  <text x="613" y="313" fill="#c4b5fd" font-size="12">Builds the habit</text>
+
+  <rect x="614" y="384" width="102" height="22" rx="11" fill="#4c1d95"/>
+  <text x="665" y="399" fill="#c4b5fd" font-size="11" text-anchor="middle">~ 15 minutes</text>
+
+  <text x="790" y="305" fill="#6b7280" font-size="11" font-style="italic" text-anchor="middle">ongoing</text>
+
+  <!-- ═══════════════════════════════ PHASE 4 — Daily ═══════════════════════════════ -->
+  <rect x="840" y="110" width="302" height="310" rx="12" fill="#1a1025" stroke="#a78bfa" stroke-width="1.5"/>
+
+  <rect x="840" y="110" width="302" height="36" rx="12" fill="#5b21b6"/>
+  <rect x="840" y="130" width="302" height="16" fill="#5b21b6"/>
+  <text x="991" y="133" fill="#e9d5ff" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="2">EVERY SESSION</text>
+
+  <text x="991" y="178" fill="#ffffff" font-size="19" font-weight="700" text-anchor="middle">10 PM Skills</text>
+  <line x1="860" y1="190" x2="1122" y2="190" stroke="#2d2d3a" stroke-width="1"/>
+
+  <!-- Two column skill list -->
+  <circle cx="864" cy="213" r="2.5" fill="#a78bfa"/>
+  <text x="873" y="217" fill="#c4b5fd" font-size="12">prd-writer</text>
+  <circle cx="994" cy="213" r="2.5" fill="#a78bfa"/>
+  <text x="1003" y="217" fill="#c4b5fd" font-size="12">metrics-definer</text>
+
+  <circle cx="864" cy="237" r="2.5" fill="#a78bfa"/>
+  <text x="873" y="241" fill="#c4b5fd" font-size="12">sprint-planner</text>
+  <circle cx="994" cy="237" r="2.5" fill="#a78bfa"/>
+  <text x="1003" y="241" fill="#c4b5fd" font-size="12">competitive-analysis</text>
+
+  <circle cx="864" cy="261" r="2.5" fill="#a78bfa"/>
+  <text x="873" y="265" fill="#c4b5fd" font-size="12">launch-checklist</text>
+  <circle cx="994" cy="261" r="2.5" fill="#a78bfa"/>
+  <text x="1003" y="265" fill="#c4b5fd" font-size="12">user-research</text>
+
+  <circle cx="864" cy="285" r="2.5" fill="#a78bfa"/>
+  <text x="873" y="289" fill="#c4b5fd" font-size="12">ai-feature-scoper</text>
+  <circle cx="994" cy="285" r="2.5" fill="#a78bfa"/>
+  <text x="1003" y="289" fill="#c4b5fd" font-size="12">stakeholder-brief</text>
+
+  <circle cx="864" cy="309" r="2.5" fill="#a78bfa"/>
+  <text x="873" y="313" fill="#c4b5fd" font-size="12">roadmap-prioritizer</text>
+  <circle cx="994" cy="309" r="2.5" fill="#a78bfa"/>
+  <text x="1003" y="313" fill="#c4b5fd" font-size="12">experiment-designer</text>
+
+  <rect x="890" y="384" width="202" height="22" rx="11" fill="#5b21b6"/>
+  <text x="991" y="399" fill="#e9d5ff" font-size="11" text-anchor="middle">trigger with natural language</text>
+
+  <!-- ═══════════════════════════════ SELF-IMPROVEMENT LOOP ═══════════════════════════════ -->
+  <rect x="60" y="448" width="1082" height="60" rx="8" fill="#0f0f13" stroke="#2d2d3a" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="145" y="467" fill="#6e40c9" font-size="10" font-weight="600" letter-spacing="2">SELF-IMPROVEMENT LOOP</text>
+  <text x="600" y="487" fill="#6b7280" font-size="12" text-anchor="middle">Mistake → "Add a rule to CLAUDE.md" → Claude proposes → you approve → rule persists into every future session</text>
+
+  <!-- ═══════════════════════════════ SKILL CHAINS ═══════════════════════════════ -->
+  <text x="600" y="548" fill="#4b5563" font-size="11" text-anchor="middle" letter-spacing="1.5" font-weight="600">COMMON SKILL CHAINS</text>
+
+  <!-- Chain 1 -->
+  <text x="78" y="578" fill="#6b7280" font-size="11" font-weight="500">New AI Feature</text>
+  <text x="78" y="596" fill="#6e40c9" font-size="11">ai-feature-scoper</text>
+  <text x="203" y="596" fill="#4b5563" font-size="11">→</text>
+  <text x="218" y="596" fill="#6e40c9" font-size="11">prd-writer</text>
+  <text x="300" y="596" fill="#4b5563" font-size="11">→</text>
+  <text x="315" y="596" fill="#6e40c9" font-size="11">metrics-definer</text>
+  <text x="425" y="596" fill="#4b5563" font-size="11">→</text>
+  <text x="440" y="596" fill="#6e40c9" font-size="11">experiment-designer</text>
+  <text x="570" y="596" fill="#4b5563" font-size="11">→</text>
+  <text x="585" y="596" fill="#6e40c9" font-size="11">launch-checklist</text>
+
+  <!-- Chain 2 -->
+  <text x="78" y="628" fill="#6b7280" font-size="11" font-weight="500">Quarterly Planning</text>
+  <text x="78" y="646" fill="#8b5cf6" font-size="11">user-research</text>
+  <text x="178" y="646" fill="#4b5563" font-size="11">→</text>
+  <text x="193" y="646" fill="#8b5cf6" font-size="11">competitive-analysis</text>
+  <text x="323" y="646" fill="#4b5563" font-size="11">→</text>
+  <text x="338" y="646" fill="#8b5cf6" font-size="11">roadmap-prioritizer</text>
+  <text x="460" y="646" fill="#4b5563" font-size="11">→</text>
+  <text x="475" y="646" fill="#8b5cf6" font-size="11">stakeholder-brief</text>
+
+  <!-- Footer -->
+  <rect x="0" y="686" width="1200" height="34" fill="#1a1a2e"/>
+  <text x="600" y="708" fill="#6e40c9" font-size="12" text-anchor="middle" letter-spacing="0.5">github.com/mahip-kakan/Mahip-PM-OS</text>
+
+</svg>
